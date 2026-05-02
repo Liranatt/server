@@ -5,8 +5,7 @@ In algorithmic trading, developing a winning strategy is only half the battle; t
 This project transforms a standard machine into a dedicated, bare-metal trading server to achieve the following:
 * **Absolute Uptime (24/7):** Trading bots require a dedicated machine that continuously listens to market data without interruptions (sleep modes, Wi-Fi drops).
 * **Low Latency & Traffic Routing:** Running multiple bots (e.g., Mean Reversion, Statistical Arbitrage) requires a single entry point (Edge Gateway) to receive market data streams (Webhooks/WebSockets) and route them to the correct bot with minimal latency. 
-* **Data Gravity:** Centralizing historical tick data and OHLCV logs into a stable, on-premise database (PostgreSQL) rather than scattered local CSV files.
-
+* **Data Gravity:** Centralizing historical tick data and OHLCV logs into a stable, on-premise database.
 ## 2. System Architecture
 The system enforces a strict separation between the development environment and the production server.
 
