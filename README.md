@@ -1,6 +1,6 @@
 # Algorithmic Trading Infrastructure & Edge Gateway
 
-## 1. Project Objective (The "Why")
+## 1. Project Objective
 In algorithmic trading, developing a winning strategy is only half the battle; the other half is building a highly reliable **Execution Infrastructure**. 
 This project transforms a standard machine into a dedicated, bare-metal trading server to achieve the following:
 * **Absolute Uptime (24/7):** Trading bots require a dedicated machine that continuously listens to market data without interruptions (sleep modes, Wi-Fi drops).
